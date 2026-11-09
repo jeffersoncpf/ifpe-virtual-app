@@ -3,3 +3,22 @@
  * ----------------------------------------------------------------------------
  * Place here all custom app variables.
  */
+
+/*
+ * Identidade visual IFPE Virtual (AVEA)
+ * Verde institucional usado no AVEA: #2f9e41 | Vermelho do símbolo IF: #ca2027
+ */
+$ifpe-green:       #2f9e41;
+$ifpe-green-dark:  #24803a;
+$ifpe-green-light: #5cc46c; // Para o modo escuro (contraste sobre fundo escuro).
+$ifpe-red:         #ca2027;
+
+$brand-color:  $ifpe-green;
+$primary:      $ifpe-green;
+$primary-dark: $ifpe-green-light;
+$success:      $ifpe-green-dark;
+$danger:       $ifpe-red;
+
+// O app aponta só para https://avea.ead.ifpe.edu.br: esconde campos de URL e o QR code de site.
+$core-fixed-url: true;
+$core-login-hide-qrcode: true;

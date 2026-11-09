@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="53001" id="com.moodle.moodlemobile" ios-CFBundleVersion="5.3.0.1" version="5.3.0" versionCode="53001" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle</name>
-    <description>Moodle official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+<widget android-versionCode="53001" id="br.edu.ifpe.avea" ios-CFBundleVersion="5.3.0.1" version="5.3.0" versionCode="53001" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>IFPE Virtual</name>
+    <description>App oficial do IFPE Virtual (AVEA) - Instituto Federal de Pernambuco</description>
+    <author email="cti@ead.ifpe.edu.br" href="https://avea.ead.ifpe.edu.br">IFPE - Diretoria de Educação a Distância</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -52,7 +52,8 @@
     <preference name="AndroidXEnabled" value="true" />
     <preference name="GradlePluginGoogleServicesEnabled" value="true" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
+    <preference name="StatusBarBackgroundColor" value="#2F9E41" />
+    <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="NavigationBarBackgroundColor" value="#FFFFFF" />
     <preference name="AndroidEdgeToEdge" value="true" />
     <feature name="StatusBar">
@@ -125,7 +126,7 @@
             <false />
         </config-file>
         <config-file parent="NSCrossWebsiteTrackingUsageDescription" target="*-Info.plist">
-            <string>This app needs third party cookies to correctly render embedded content from the Moodle site.</string>
+            <string>Este app precisa de cookies de terceiros para exibir corretamente conteúdos incorporados do AVEA.</string>
         </config-file>
         <config-file parent="ITSAppUsesNonExemptEncryption" target="*-Info.plist">
             <false />
